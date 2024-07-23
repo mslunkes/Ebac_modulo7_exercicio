@@ -14,10 +14,10 @@ function validarNumero(){
 
     if (campoA >= campoB){
         document.querySelector(".error-message").style.display = "block"
-        document.querySelector(".success-message").style.display = "none";
+        document.querySelector(".sucess-message").style.display = "none";
     } else {
-        const mensagemSucesso = `O número ${campoB.value} é maior que ${campoA.value}`
-        const containerMensagemSucesso = document.querySelector('.success-message');
+        const mensagemSucesso = `O número ${campoB} é maior que ${campoA}`
+        const containerMensagemSucesso = document.querySelector('.sucess-message');
         containerMensagemSucesso.textContent = mensagemSucesso
         containerMensagemSucesso.style.display = 'block';
         
